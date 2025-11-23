@@ -182,7 +182,7 @@ https://engineeringxpert.com/wp-content/uploads/2022/04/26.png
 
 ## STM 32 CUBE PROGRAM :
 main.c
-
+```
 /* USER CODE BEGIN Header */
 /**
   ****************************************************************************
@@ -600,9 +600,9 @@ void assert_failed(uint8_t *file, uint32_t line)
   /* USER CODE END 6 */
 }
 #endif /* USE_FULL_ASSERT */
-
+```
 lcd.h
-
+```
 /*
  * lcd.h
  *
@@ -700,9 +700,9 @@ void Lcd_define_char(Lcd_HandleTypeDef * lcd, uint8_t code, uint8_t bitmap[]);
 void Lcd_clear(Lcd_HandleTypeDef * lcd);
 
 #endif /* LCD_H_ */
-
+```
 lcd.c
-
+```
 
 // *  Created on: 10/04/2023
  //
@@ -872,16 +872,18 @@ void lcd_write(Lcd_HandleTypeDef * lcd, uint8_t data, uint8_t len)
 	HAL_GPIO_WritePin(lcd->en_port, lcd->en_pin, 0);
 }
 
-
+```
 
 ## Output screen shots of proteus  :
 
-<img width="1151" height="810" alt="image" src="https://github.com/user-attachments/assets/3fc12d75-06bc-4b15-aca5-73face91f6b8" />
+
+<img width="1920" height="1200" alt="image" src="https://github.com/user-attachments/assets/b31144d1-0bcc-400b-8e5b-03587bab0ce8" />
+
 
  
  ## CIRCUIT DIAGRAM (EXPORT THE GRAPHICS TO PDF AND ADD THE SCREEN SHOT HERE): 
 
- <img width="1015" height="708" alt="image" src="https://github.com/user-attachments/assets/254ca485-6180-4914-b430-469ca94e89d1" />
+<img width="1184" height="864" alt="Gemini_Generated_Image_nmr7dznmr7dznmr7" src="https://github.com/user-attachments/assets/8c40778c-1b7b-4922-b8a2-43988f142300" />
 
  
 ## Result :
